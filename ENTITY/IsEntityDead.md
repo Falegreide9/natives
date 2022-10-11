@@ -12,6 +12,12 @@ BOOL IS_ENTITY_DEAD(Entity entity);
 NativeDB Added Parameter 2: BOOL p1
 ```
 
+```
+if IsEntityDead(PlayerPed()) then
+ -- Do something
+end
+```
+
 ## Parameters
 * **entity**: 
 
