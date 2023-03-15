@@ -20,7 +20,7 @@ The hash of `string`.
 ```lua
 local zentorno = GetHashKey('zentorno')
 
-if GetEntityModel(car) == zentorno then
+if GetEntityModel(car) == 'zentorno' then
     print('Car is a zentorno!')
 end
 ```
